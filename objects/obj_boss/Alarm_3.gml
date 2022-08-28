@@ -11,7 +11,7 @@ else
 {
 	attack[1]=0;
 	direction=irandom_range(90,270);
-	alarm[0]=1;
+	alarm[0]=45;
 }
 
 
