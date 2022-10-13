@@ -16,4 +16,3 @@ if (y > room_height - sprite_height + sprite_xoffset)
 {
 	y = room_height - sprite_height + sprite_xoffset
 }
-

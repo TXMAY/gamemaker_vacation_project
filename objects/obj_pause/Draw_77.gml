@@ -9,9 +9,21 @@ if(pause)
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 	draw_set_font(font_72);
+	draw_set_halign(fa_center);
 	draw_text(room_width/2,room_height/2-150,"Pause");
 	draw_set_font(font_36);
-	draw_text(room_width/2,room_height/2+100,"Continue                           Pause   ");
+	if(restart)
+	{
+		//draw_set_halign(fa_right);
+		draw_text(room_width/4,room_height/2+100,"    Continue");
+		draw_text(room_width/4*3,room_height/2+100,">  Restart");
+	}
+	else if(!restart)
+	{
+		//draw_set_halign(fa_right);
+		draw_text(room_width/4,room_height/2+100,">  Continue");
+		draw_text(room_width/4*3,room_height/2+100,"   Restart");
+	}
 }
 else
 {
