@@ -3,7 +3,7 @@
 draw_clear(c_black);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
-draw_set_font(font_56);
+draw_set_font(font_46);
 score_text="Score : "+ string(global.score);
 draw_text(x,y,"GAME\nOVER");
 draw_text(x,y+200,score_text);

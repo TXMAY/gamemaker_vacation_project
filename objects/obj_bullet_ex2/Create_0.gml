@@ -6,4 +6,4 @@ speed=7;
 image_angle=360+random(360);
 direction=obj_boss.direction;
 alarm[0]=60;
-alarm[1]=60;
+//alarm[1]=60;

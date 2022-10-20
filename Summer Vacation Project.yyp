@@ -27,12 +27,11 @@
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":13,},
     {"id":{"name":"room_gameover","path":"rooms/room_gameover/room_gameover.yy",},"order":1,},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":7,},
-    {"id":{"name":"font_72","path":"fonts/font_72/font_72.yy",},"order":2,},
     {"id":{"name":"obj_gameover_score","path":"objects/obj_gameover_score/obj_gameover_score.yy",},"order":4,},
     {"id":{"name":"obj_laser_line","path":"objects/obj_laser_line/obj_laser_line.yy",},"order":10,},
     {"id":{"name":"obj_bullet_ex","path":"objects/obj_bullet_ex/obj_bullet_ex.yy",},"order":5,},
     {"id":{"name":"obj_bullet_ex3","path":"objects/obj_bullet_ex3/obj_bullet_ex3.yy",},"order":9,},
-    {"id":{"name":"font_56","path":"fonts/font_56/font_56.yy",},"order":0,},
+    {"id":{"name":"font_46","path":"fonts/font_46/font_46.yy",},"order":0,},
     {"id":{"name":"obj_bullet2","path":"objects/obj_bullet2/obj_bullet2.yy",},"order":6,},
     {"id":{"name":"spr_bullet_ex","path":"sprites/spr_bullet_ex/spr_bullet_ex.yy",},"order":2,},
     {"id":{"name":"room_game","path":"rooms/room_game/room_game.yy",},"order":0,},
@@ -80,6 +79,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.0.49",
+    "IDEVersion": "2022.9.1.51",
   },
 }
