@@ -1,6 +1,10 @@
 /// @description attack 3
 // 이 에디터에 코드를 작성할 수 있습니다
 direction=irandom_range(90,270);
+if(leftFlag)
+{
+	direction+=180;
+}
 instance_create_layer(x,y,"Instances", obj_bullet);
 attack[3]++;
 if(attack[3]<99)

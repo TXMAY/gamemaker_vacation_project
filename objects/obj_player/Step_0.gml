@@ -16,3 +16,20 @@ if (y > room_height - sprite_height + sprite_xoffset)
 {
 	y = room_height - sprite_height + sprite_xoffset
 }
+switch(global.life)
+{
+	case 4:
+		sprite_index=spr_player;
+		break;
+	case 3:
+		sprite_index=spr_player2;
+		break;
+	case 2:
+		sprite_index=spr_player3;
+		break;
+	case 1:
+		sprite_index=spr_player4;
+		break;
+	default:
+		break;
+}

@@ -6,7 +6,11 @@ if(attack[2]<100)
 {
 	if(attack[2]%4==0)
 	{
-		direction=irandom_range(135,225);
+		direction=irandom_range(100,260);
+		if(leftFlag)
+		{
+			direction+=180;
+		}
 	}
 	alarm[4]=1;
 }
