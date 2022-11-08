@@ -8,23 +8,26 @@ if(pause)
 	draw_set_color(c_black);
 	draw_set_alpha(0.5);
 	draw_rectangle(0 ,0,dWidth,dHeight,c_black);
-	draw_set_color(c_white);
 	draw_set_alpha(1);
 	draw_set_font(font_46);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
+	draw_set_color(c_gray);
 	draw_text(dWidth/2,dHeight/4,"PAUSE");
 	draw_set_font(font_36);
 	if(restart)
 	{
+		draw_set_color(c_white);
 		draw_text(dWidth/3,dHeight*0.7,"CONTINUE");
-		draw_text(dWidth/5,dHeight*0.7,">");
-		draw_text(dWidth/3*2,dHeight*0.7,"XRESTART");
+		draw_set_color(c_black);
+		draw_text(dWidth/3*2,dHeight*0.7,"RESTART");
 	}
-	else if(!restart)
+	if(!restart)
 	{
-		draw_text(dWidth/4,dHeight*0.7,"CONTINUE");
-		draw_text(dWidth/4*3,dHeight*0.7,"RESTARTX");
+		draw_set_color(c_black);
+		draw_text(dWidth/3,dHeight*0.7,"CONTINUE");
+		draw_set_color(c_white);
+		draw_text(dWidth/3*2,dHeight*0.7,"RESTART");
 	}
 }
 else
