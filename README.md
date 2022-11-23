@@ -1,1 +1,2 @@
-# gamemaker_vacation_project
+# MO/VE
+This is my first GameMaker project :)
