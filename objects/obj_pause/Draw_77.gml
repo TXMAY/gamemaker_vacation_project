@@ -12,7 +12,7 @@ if(pause)
 	draw_set_font(font_46);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
-	draw_set_color(c_gray);
+	draw_set_color(c_white);
 	draw_text(dWidth/2,dHeight/4,"PAUSE");
 	draw_set_font(font_36);
 	if(restart)
