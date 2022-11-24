@@ -3,5 +3,5 @@
 global.life=4;
 global.score=0;
 room_speed=60;
-alarm[0]=60;
+alarm[0]=room_speed;
 
